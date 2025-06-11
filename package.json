@@ -1,14 +1,15 @@
 {
-  "name": "hanna-ai",
+  "name": "hannax1",
   "version": "1.0.0",
+  "description": "Hanna AI - ChatGPT frontend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.0",
+    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "openai": "^4.0.0"
+    "body-parser": "^1.20.2",
+    "openai": "^4.20.0"
   }
 }
